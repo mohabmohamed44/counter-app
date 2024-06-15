@@ -20,6 +20,7 @@ This is a simple counter application built with React, Redux, and Vite. The app 
 - Simple and clean UI
 
 ## Project Structure
+```
 counter-app/
 ├── node_modules/
 ├── public/
@@ -36,3 +37,4 @@ counter-app/
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
