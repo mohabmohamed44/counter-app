@@ -20,7 +20,7 @@ This is a simple counter application built with React, Redux, and Vite. The app 
 - Simple and clean UI
 
 ## Project Structure
-
+<code>
 counter-app/
 ├── node_modules/      (Contains project dependencies installed by npm or yarn)
 ├── public/           (Holds static assets like images, fonts, etc.)
@@ -34,3 +34,4 @@ counter-app/
 ├── index.html         (The main HTML file for the application)
 ├── package.json        (Contains project metadata and dependencies)
 └── vite.config.js      (Vite configuration for development and build processes)
+</code>
