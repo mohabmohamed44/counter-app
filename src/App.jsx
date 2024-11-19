@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { increment, decrement } from './redux/store';
+import { increment, decrement } from './store/store';
 
 function App() {
   const count = useSelector((state) => state.count);

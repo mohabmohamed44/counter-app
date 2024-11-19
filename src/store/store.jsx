@@ -1,4 +1,4 @@
-// src/redux/store.js
+// src/store/store.js
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 
 const counterSlice = createSlice({
@@ -9,7 +9,9 @@ const counterSlice = createSlice({
       state.count += 1;
     },
     decrement: (state) => {
-      state.count -= 1;
+      if (state.count > 0) {
+        state.count -= 1;
+      }
     }
   }
 });
